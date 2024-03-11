@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Deployment') {
             steps {
-                     bat 'xcopy /s /y "C:\\path\\to\\your\\built\\artifacts\\*"    "C:\\Users\\Siddh\\Downloads\\nginx-1.24.0\\nginx-1.24.0\\html\\"'
+                     bat 'xcopy /s /y "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\NewPipeline\\index.html"    "C:\\Users\\Siddh\\Downloads\\nginx-1.24.0\\nginx-1.24.0\\html\\"'
             }
         }
     }

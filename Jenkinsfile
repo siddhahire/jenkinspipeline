@@ -10,7 +10,7 @@ pipeline {
   
         stage('Test') {
             steps {
-                 bat 'echo "Running tests..."'
+                 
                  bat test.bat
             }
         }
